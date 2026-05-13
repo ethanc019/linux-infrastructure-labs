@@ -13,7 +13,7 @@ Perform an end-to-end remote administration scenario: identify a web service out
 - UFW firewall review
 - Service recovery
 - HTTP response verification
-- Incident-style reporting
+- Incident reporting
 
 ## Command Areas Used
 
