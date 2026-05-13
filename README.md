@@ -6,7 +6,7 @@ This repo is designed to support entry-level Linux, systems administration, infr
 
 ## Positioning
 
-**LFCS-preparing Linux systems candidate applying Linux administration fundamentals to infrastructure support, systems administration, and defensive operations support.**
+**LFCS-preparing Linux systems candidate building hands-on Linux administration, infrastructure support, and troubleshooting skills.**
 
 ## Lab Index
 
@@ -33,7 +33,7 @@ This repo is designed to support entry-level Linux, systems administration, infr
 - Persistent storage configuration with `/etc/fstab`
 - Users, groups, permissions, setgid directories, and ACLs
 - Bash scripting and cron-based automation
-- Log investigation and incident-style summaries
+- Log investigation and incident summaries
 - Remote administration and final troubleshooting scenario
 
 ## Environment
@@ -62,9 +62,6 @@ linux-infrastructure-labs/
 └── notes/
 ```
 
-## Notes
-
-Each lab contains raw command output, concise notes, and proof screenshots. The screenshots are included as evidence of hands-on execution, not as polished diagrams.
 
 
 ## Evidence Handling
