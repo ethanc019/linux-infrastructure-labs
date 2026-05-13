@@ -1,0 +1,19 @@
+Final Scenario Summary
+
+Reviewed:
+- Remote SSH administration from Linux-Lab-2
+- Apache service outage on Linux-Lab-1
+- Service status with systemctl
+- Local HTTP failure with curl
+- Apache logs with journalctl
+- Firewall rules with UFW
+- Service recovery and verification
+- Final incident-style summary
+
+Purpose:
+This lab combines Linux administration, troubleshooting, log review,
+firewall review, and service recovery from an infrastructure support
+perspective.
+
+The goal is to identify a service issue, review evidence, restore the
+service, verify recovery, and summarize the result clearly.

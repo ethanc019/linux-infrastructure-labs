@@ -1,0 +1,16 @@
+# 01 Baseline - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+hostnamectl
+uname -a
+whoami
+id
+getent passwd
+sudo -l
+systemctl --type=service --state=running
+ss -tulnp
+sudo ufw status verbose
+apt list --upgradable
+```

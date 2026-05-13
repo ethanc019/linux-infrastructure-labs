@@ -1,0 +1,19 @@
+Linux Hardening Baseline Summary
+
+Reviewed:
+- System identity and kernel information
+- Current user and group context
+- Users with login shells
+- Sudo permissions for current user
+- Running services
+- Listening network ports
+- Firewall status
+- Package update status
+
+Purpose:
+This lab establishes a basic Linux system baseline from an infrastructure
+support perspective.
+
+The goal is to identify system exposure, active services, privileged
+access context, firewall state, and package update status before making
+security or operational changes.

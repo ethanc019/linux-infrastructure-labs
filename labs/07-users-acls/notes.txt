@@ -1,0 +1,21 @@
+Users Permissions ACLs Summary
+
+Reviewed:
+- Created local users
+- Created secops group
+- Added analysts to secops group
+- Created shared and private directories
+- Applied ownership with chown
+- Applied permissions with chmod
+- Used setgid on shared directory
+- Tested allowed group access
+- Tested permission denied for unauthorized user
+- Added ACL access for intern1
+- Verified ACL behavior with getfacl
+
+Purpose:
+This lab shows basic Linux user, group, permission, and ACL
+administration from an infrastructure support perspective.
+
+The goal is to control access to shared resources, verify denied access,
+apply least privilege, and confirm access changes with command output.

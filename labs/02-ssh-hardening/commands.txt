@@ -1,0 +1,15 @@
+# 02 Ssh Hardening - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+systemctl status ssh --no-pager
+ss -tulnp | grep :22
+sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+sudo grep -E "PermitRootLogin|PasswordAuthentication|PubkeyAuthentication" /etc/ssh/sshd_config
+sudo sshd -t
+sudo systemctl restart ssh
+sudo sshd -T | grep -E "permitrootlogin|passwordauthentication|pubkeyauthentication"
+ssh localhost
+sudo journalctl -u ssh --since "20 minutes ago" --no-pager | grep "Accepted password"
+```

@@ -1,0 +1,12 @@
+# 09 Log Investigation - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+sudo systemctl restart apache2
+sudo systemctl stop apache2
+sudo systemctl start apache2
+sudo journalctl -u apache2 --since "15 minutes ago" --no-pager | grep -E "Starting|Started|Stopping|Stopped|apache2"
+sudo grep -E "COMMAND=/usr/bin/systemctl (restart|stop|start) apache2" /var/log/auth.log | tail -n 5
+cat incident-summary.txt
+```

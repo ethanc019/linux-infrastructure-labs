@@ -1,0 +1,19 @@
+Storage fstab Persistent Mount Summary
+
+Reviewed:
+- Created safe loopback storage file
+- Formatted storage with ext4
+- Mounted storage to /mnt/lab-storage
+- Verified mount with findmnt and df
+- Wrote a test file to mounted storage
+- Backed up /etc/fstab
+- Added persistent mount entry to /etc/fstab
+- Tested fstab entry with mount -a
+- Verified stored file after remount
+
+Purpose:
+This lab shows basic Linux storage and persistent mount administration
+from an infrastructure support perspective.
+
+The goal is to create test storage, mount it safely, configure persistence
+through /etc/fstab, test the configuration, and verify the mount works.

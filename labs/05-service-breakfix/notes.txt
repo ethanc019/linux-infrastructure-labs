@@ -1,0 +1,17 @@
+Service Outage Break/Fix Summary
+
+Reviewed:
+- Apache service baseline status
+- Port 80 listening state
+- Local HTTP response with curl
+- Simulated outage by stopping Apache
+- Failed curl test during outage
+- Apache service logs with journalctl
+- Service restart and recovery verification
+
+Purpose:
+This lab shows basic Linux service troubleshooting from an infrastructure
+support perspective.
+
+The goal is to identify a service outage, confirm service impact,
+review service evidence, restore the service, and verify recovery.

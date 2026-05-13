@@ -1,0 +1,18 @@
+Incident Summary - Lab 09 Log Investigation
+
+Issue:
+Apache service activity was reviewed after a controlled stop/start event.
+
+Evidence:
+- apache2 was stopped and started during the lab.
+- journalctl showed Apache service lifecycle events.
+- auth.log showed sudo activity for systemctl commands.
+
+Action Taken:
+- Reviewed Apache service status.
+- Checked Apache logs with journalctl.
+- Checked sudo/admin activity in /var/log/auth.log.
+- Verified Apache returned to active running state.
+
+Result:
+The service activity was identified and summarized using Linux logs.

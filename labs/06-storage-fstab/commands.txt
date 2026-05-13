@@ -1,0 +1,16 @@
+# 06 Storage Fstab - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+sudo truncate -s 512M /opt/lab-storage.img
+sudo mkfs.ext4 -F /opt/lab-storage.img
+sudo mount -o loop /opt/lab-storage.img /mnt/lab-storage
+findmnt /mnt/lab-storage
+df -h /mnt/lab-storage
+sudo cp /etc/fstab /etc/fstab.bak.lab6
+echo "/opt/lab-storage.img /mnt/lab-storage ext4 loop,defaults 0 0" | sudo tee -a /etc/fstab
+sudo umount /mnt/lab-storage
+sudo mount -a
+cat /mnt/lab-storage/storage-proof.txt
+```

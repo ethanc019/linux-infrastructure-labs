@@ -1,0 +1,17 @@
+SSH Hardening Summary
+
+Reviewed:
+- Verified SSH service was installed and running
+- Confirmed SSH was listening on port 22
+- Backed up /etc/ssh/sshd_config
+- Reviewed SSH hardening settings
+- Set PermitRootLogin no
+- Confirmed PubkeyAuthentication yes
+- Tested SSH config with sshd -t before restarting
+- Restarted SSH safely
+- Tested local SSH login
+- Reviewed authentication logs
+
+Purpose:
+This lab shows basic secure remote administration, SSH service
+verification, safe SSH configuration testing, and authentication log review.

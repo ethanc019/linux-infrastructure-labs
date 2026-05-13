@@ -1,0 +1,19 @@
+# 07 Users Acls - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+sudo groupadd secops
+sudo useradd -m -s /bin/bash analyst1
+sudo useradd -m -s /bin/bash analyst2
+sudo useradd -m -s /bin/bash intern1
+sudo usermod -aG secops analyst1
+sudo usermod -aG secops analyst2
+sudo chown root:secops /srv/lab7/secops-shared
+sudo chmod 2770 /srv/lab7/secops-shared
+sudo -u analyst2 cat /srv/lab7/secops-shared/analyst1-note.txt
+sudo -u intern1 cat /srv/lab7/secops-shared/analyst1-note.txt
+sudo setfacl -m u:intern1:rx /srv/lab7/secops-shared
+sudo setfacl -m u:intern1:r /srv/lab7/secops-shared/analyst1-note.txt
+sudo getfacl /srv/lab7/secops-shared | grep intern1
+```

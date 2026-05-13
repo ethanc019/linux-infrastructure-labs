@@ -1,0 +1,17 @@
+Log Investigation Summary
+
+Reviewed:
+- Generated controlled Apache service activity
+- Checked service status with systemctl
+- Reviewed Apache logs with journalctl
+- Filtered service lifecycle events
+- Reviewed sudo/admin activity in auth.log
+- Created short incident summary
+- Verified service returned to running state
+
+Purpose:
+This lab shows basic Linux log investigation and event summarization
+from an infrastructure support perspective.
+
+The goal is to identify system activity in logs, extract useful evidence,
+summarize what happened, and verify the final system state.

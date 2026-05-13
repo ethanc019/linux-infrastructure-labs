@@ -1,0 +1,15 @@
+# 04 Firewall Defense - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+sudo ufw status numbered
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw deny 8080/tcp
+sudo ufw --force enable
+python3 -m http.server 8080 --bind 0.0.0.0
+ss -tulnp | grep :8080
+curl -m 5 http://192.168.1.229:8080
+ssh ethan19@192.168.1.229
+```

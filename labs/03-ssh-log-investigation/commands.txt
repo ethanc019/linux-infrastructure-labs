@@ -1,0 +1,12 @@
+# 03 Ssh Log Investigation - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+hostname
+ip -4 addr show enp0s3
+ssh fakeuser@192.168.1.229
+sudo journalctl -u ssh --since "10 minutes ago" --no-pager | grep -E "Invalid user|Failed password|fakeuser|192.168.1.231"
+ssh ethan19@192.168.1.229
+sudo journalctl -u ssh --since "10 minutes ago" --no-pager | grep "Accepted password"
+```

@@ -1,0 +1,17 @@
+Firewall Defense Summary
+
+Reviewed:
+- UFW firewall status
+- SSH allowed on port 22
+- HTTP allowed on port 80
+- Test port 8080 denied
+- Temporary service listening on port 8080
+- Remote curl test from Linux-Lab-2
+- SSH access still allowed after firewall changes
+
+Purpose:
+This lab shows basic firewall rule configuration from a cyber defense
+infrastructure support perspective.
+
+The goal is to allow required services, block unnecessary exposed ports,
+test access from a remote VM, and verify SSH remains available.

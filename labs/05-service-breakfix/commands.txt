@@ -1,0 +1,14 @@
+# 05 Service Breakfix - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+systemctl status apache2 --no-pager
+sudo ss -ltnp | grep :80
+curl -I http://localhost
+sudo systemctl stop apache2
+curl -m 5 -I http://localhost
+sudo journalctl -u apache2 --since "10 minutes ago" --no-pager | tail -n 20
+sudo systemctl start apache2
+curl -I http://localhost
+```

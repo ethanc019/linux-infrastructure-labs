@@ -1,0 +1,16 @@
+# 08 Bash Cron - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+cat > lab8-system-check.sh << EOF
+bash -n lab8-system-check.sh
+chmod +x lab8-system-check.sh
+./lab8-system-check.sh
+cat /tmp/lab8-system-check.log
+sudo cp lab8-system-check.sh /usr/local/bin/lab8-system-check.sh
+echo "* * * * * root /usr/local/bin/lab8-system-check.sh" | sudo tee /etc/cron.d/lab8-system-check
+systemctl status cron --no-pager
+tail -n 30 /tmp/lab8-system-check.log
+sudo rm -f /etc/cron.d/lab8-system-check
+```

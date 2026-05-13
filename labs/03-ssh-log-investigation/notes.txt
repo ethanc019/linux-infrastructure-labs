@@ -1,0 +1,18 @@
+Failed SSH Login Investigation Summary
+
+Reviewed:
+- Two-VM SSH setup
+- Linux-Lab-1 used as the SSH server and log investigation machine
+- Linux-Lab-2 used as the remote SSH client
+- Failed SSH login attempt using fakeuser
+- SSH authentication logs with journalctl
+- Source IP evidence from Linux-Lab-2
+- Successful SSH login for comparison
+
+Purpose:
+This lab shows basic SSH log investigation from a cyber defense
+infrastructure support perspective.
+
+The goal is to identify failed SSH login activity, confirm the source IP,
+compare failed and successful authentication events, and verify evidence
+from Linux logs.

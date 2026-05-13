@@ -1,0 +1,19 @@
+Bash Cron Automation Summary
+
+Reviewed:
+- Created Bash system-check script
+- Validated script syntax with bash -n
+- Made script executable with chmod
+- Ran script manually
+- Verified log output
+- Copied script to /usr/local/bin
+- Created cron job in /etc/cron.d
+- Verified scheduled execution from log output
+- Removed cron job after proof to prevent log spam
+
+Purpose:
+This lab shows basic Linux automation and scheduled task administration
+from an infrastructure support perspective.
+
+The goal is to create a repeatable system check, schedule it with cron,
+verify that it runs automatically, and confirm output through logs.

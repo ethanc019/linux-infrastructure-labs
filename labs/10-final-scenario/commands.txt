@@ -1,0 +1,15 @@
+# 10 Final Scenario - Clean Command Reference
+
+This file lists the main command areas used in the lab. Screenshots and notes provide the execution evidence.
+
+```bash
+ssh ethan19@192.168.1.229
+systemctl status apache2 --no-pager
+curl -m 5 -I http://localhost
+sudo journalctl -u apache2 --since "15 minutes ago" --no-pager | tail -n 20
+sudo ufw status numbered
+sudo systemctl start apache2
+sudo ss -ltnp | grep :80
+curl -I http://localhost
+cat final-scenario-summary.txt
+```
