@@ -1,6 +1,6 @@
 # Linux Infrastructure Support Labs
 
-A hands-on Linux administration and infrastructure support portfolio built in Ubuntu virtual machines. The labs focus on practical server support, SSH administration, log review, firewall validation, service troubleshooting, storage persistence, user/group access control, Bash automation, cron scheduling, and incident-style documentation.
+A hands-on Linux administration and infrastructure support portfolio built in Ubuntu virtual machines. The labs focus on practical server support, SSH administration, log review, firewall validation, service troubleshooting, storage persistence, user/group access control, Bash automation, cron scheduling, and incident documentation.
 
 This repo is designed to support entry-level Linux, systems administration, infrastructure support, NOC, server support, and cyber defense infrastructure apprenticeship applications without locking the portfolio into one narrow lane.
 
