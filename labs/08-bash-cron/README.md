@@ -36,10 +36,10 @@ Create a Bash system check script, run it manually, schedule it with cron, and v
 
 ## Script
 
-- [`lab8-system-check.sh`](lab8-system-check.sh) — Bash system-check script scheduled by cron during the lab.
+- [`lab8-system-check.sh`](lab8-system-check.sh) — Bash system check script scheduled by cron during the lab.
 
 ## Summary
 
-This lab demonstrates basic automation by writing a system-check script, validating and running it, scheduling it with cron, verifying root-executed output, and removing the cron job after proof.
+This lab demonstrates basic automation by writing a system check script, validating and running it, scheduling it with cron, verifying root-executed output, and removing the cron job after proof.
 
 See [`commands.txt`](commands.txt) for the raw command log and [`notes.txt`](notes.txt) for the raw lab notes.
