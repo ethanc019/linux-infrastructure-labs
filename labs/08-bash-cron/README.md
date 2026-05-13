@@ -2,7 +2,7 @@
 
 ## Objective
 
-Create a Bash system-check script, run it manually, schedule it with cron, and verify automated log output.
+Create a Bash system check script, run it manually, schedule it with cron, and verify automated log output.
 
 ## Skills Demonstrated
 
