@@ -10,7 +10,7 @@ Generate controlled service activity, investigate logs, review sudo evidence, an
 - systemctl status review
 - journalctl evidence filtering
 - auth.log sudo review
-- Incident-style summarization
+- Incident style summarization
 - Final state verification
 
 ## Command Areas Used
