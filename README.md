@@ -59,7 +59,6 @@ linux-infrastructure-labs/
 │   ├── 09-log-investigation/
 │   └── 10-final-scenario/
 ├── scripts/
-└── notes/
 ```
 
 
