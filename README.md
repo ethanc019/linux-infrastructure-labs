@@ -6,7 +6,7 @@ This repo is designed to support entry-level Linux, systems administration, infr
 
 ## Positioning
 
-**LFCS-preparing Linux systems candidate building hands-on Linux administration, infrastructure support, and troubleshooting skills.**
+**RHCSA-preparing Linux systems candidate building hands-on Linux administration, infrastructure support, and troubleshooting skills.**
 
 ## Lab Index
 
